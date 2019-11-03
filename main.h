@@ -7,7 +7,7 @@
 
 #define ZOEA
 #define SYSVER1 "Zoea"
-#define SYSVER2 "1.3"
+#define SYSVER2 "1.3.1"
 #define BASVER "KM-1208"
 
 #define INIFILE "MACHIKAZ.INI" // ‰Šúİ’èƒtƒ@ƒCƒ‹
