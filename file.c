@@ -140,12 +140,8 @@ int compile_and_link_file(char* buff,char* appname){
 		}
 
 		// Option initialization(s)
-<<<<<<< HEAD
-		g_nolinenum=0;
-=======
 		g_option_nolinenum=0;
 		g_option_fastfield=0;
->>>>>>> remotes/origin/timer
 
 		// Compile the file
 		err=compile_file();

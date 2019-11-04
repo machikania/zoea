@@ -1568,9 +1568,6 @@ char* option_statement(){
 	while(1){
 		next_position();
 		if (nextCodeIs("NOLINENUM")) {
-<<<<<<< HEAD
-			g_nolinenum=1;
-=======
 			g_option_nolinenum=1;
 		} else if (nextCodeIs("FASTFIELD")) {
 			g_option_fastfield=1;
@@ -1584,7 +1581,6 @@ char* option_statement(){
 				// End the compile of main file
 				return ERR_OPTION_CLASSCODE;
 			}
->>>>>>> remotes/origin/timer
 		} else {
 			return ERR_SYNTAX;
 		}
@@ -1598,15 +1594,12 @@ char* option_statement(){
 	return 0;
 }
 
-<<<<<<< HEAD
-=======
 char* idle_statement(){
 	check_obj_space(2);
 	g_object[g_objpos++]=0x42000020; // wait
 	return 0;	
 }
 
->>>>>>> remotes/origin/timer
 #ifdef __DEBUG
 	char* debug_statement(){
 		call_lib_code(LIB_DEBUG);
@@ -1756,14 +1749,11 @@ static const void* statement_list[]={
 	"STATIC ",static_statement,
 	"SETDIR ",setdir_statement,
 	"OPTION ",option_statement,
-<<<<<<< HEAD
-=======
 	"USETIMER ",usetimer_statement,
 	"TIMER ",timer_statement,
 	"INTERRUPT ",interrupt_statement,
 	"IDLE",idle_statement,
 	"CORETIMER",coretimer_statement,
->>>>>>> remotes/origin/timer
 	// List of additional statements follows
 	ADDITIONAL_STATEMENTS
 };
