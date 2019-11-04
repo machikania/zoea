@@ -56,11 +56,7 @@ unsigned short g_var_size[ALLOC_BLOCK_NUM];
 char g_temp_area_used;
 
 // Flag to use option nolinenum
-<<<<<<< HEAD
-char g_nolinenum;
-=======
 char g_option_nolinenum;
->>>>>>> remotes/origin/timer
 
 // Heap area
 int* g_heap_mem;

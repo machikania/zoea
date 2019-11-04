@@ -228,11 +228,6 @@ static const char initext[]=
 "#PRINT\n";
 
 static const char bastext[]=
-<<<<<<< HEAD
-"REM 1\n"
-"REM 2\n"
-"REM 3\n"
-=======
 "USECLASS CLASS1,CLASS2\n"
 "OPTION FASTFIELD\n"
 "CLS\n"
@@ -240,11 +235,8 @@ static const char bastext[]=
 "o.T1=123\n"
 "print o.T2()\n"
 "\n"
->>>>>>> remotes/origin/timer
 "\n"
-"CLS\n"
 "\n"
-"LABEL TST:PRINT\n"
 "\n";
 
 static const char class1text[]=
