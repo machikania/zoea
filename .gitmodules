@@ -1,0 +1,3 @@
+[submodule "interface/lib_videoout_machikania"]
+	path = interface/lib_videoout_machikania
+	url = https://github.com/KenKenMkIISR/lib_videoout_machikania.git
